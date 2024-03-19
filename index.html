@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh Inline CSS</title>
+    <title>Sintaks Dasar CSS</title>
 </head>
 <body>
+    <style>
+        /* selektor dengan nama tag */
+        h2 {
+            color: blue;
+        }
+
+        /* selektor dengan class  */
+        .bg-yellow {
+            background-color: yellow;
+        }
+
+        /* selektor dengan ID elemen */
+        #header {
+            background: grey;
+        }
+
+        /* selektor dengan Atribut */
+        input[type=text]{
+            background: yellow;
+        }
+    </style>
     
-    <h2 style="color: red;font-family: sans;">Ini Judul Artikel</h2>
-    <!-- contoh internal css dibuat langsung di dalam tag dengan menambahkan atribut style -->
-    <p style="color: maroon;">Ini adalah paragraf yang memuat isi artikel.
-    Paragraf ini hanya untuk percobaan saja. Percobaan untuk mendemokan <i>internal css</i>. Seperti namanya <i>inline css</i>adalah kode CSS yang ditulis langsung dalam file HTML</p>
+<h2>Contoh selektor dengan nama tag</h2>
+
+
 </body>
 </html>

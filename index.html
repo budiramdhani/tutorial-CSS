@@ -3,36 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sintaks Dasar CSS</title>
+    <title>Warna dalam CSS</title>
 </head>
+
+<style>
+    h2 {
+        background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
+
+<h2>Contoh warna pada CSS</h2>
+
 <body>
-    <style>
-        /* selektor dengan nama tag */
-        h2 {
-            color: blue;
-        }
-
-        /* selektor dengan class  */
-        .bg-yellow {
-            color: red;
-        }
-
-        /* selektor dengan ID elemen */
-        #header {
-            background: grey; color: white;
-        }
-
-        /* selektor dengan Atribut */
-        input[type=text]{
-            background: red;
-        }
-    </style>
     
-<h2>Contoh selektor dengan nama tag</h2>
-<p>contoh selektor class <b class="bg-yellow"> contoh</b>oke</p>
-<header id="header">contoh selektor elemen</header>
-<input type="text" placeholder="contoh selektor dengan atribut">
-
-
 </body>
 </html>
